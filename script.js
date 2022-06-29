@@ -1,5 +1,7 @@
 ///////////////////////////////////////
 // Our First AJAX Call: XMLHttpRequest
+const btn = document.querySelector('.btn-country');
+const countriesContainer = document.querySelector('.countries');
 
 const renderCountry = function (country) {
   const request = new XMLHttpRequest();
